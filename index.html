@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infobasique avec Mouna - Candidature Cours</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>infobasique</h1>
+            <p>Bienvenue sur mon site ! Postulez pour mes cours en ligne.</p>
+        </div>
+    </header>
+
+    <section class="courses">
+        <div class="container">
+            <h2>Cours Disponibles</h2>
+            <div class="course-list">
+                <div class="course">
+                    <h3>Cours de Programmation Web</h3>
+                    <p>Apprenez à créer des sites web dynamiques avec HTML, CSS, et JavaScript.</p>
+                    <button onclick="postuler('Cours de Programmation Web')">Postuler</button>
+                </div>
+                <div class="course">
+                    <h3>Cours de Data Science</h3>
+                    <p>Découvrez les bases de la science des données et de l'analyse avec Python et SQL.</p>
+                    <button onclick="postuler('Cours de Data Science')">Postuler</button>
+                </div>
+                <div class="course">
+                    <h3>Cours de Développement Mobile</h3>
+                    <p>Apprenez à créer des applications mobiles Android et iOS avec React Native.</p>
+                    <button onclick="postuler('Cours de Développement Mobile')">Postuler</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form action="mailto:tonemail@exemple.com" method="post" enctype="text/plain">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mon Site Personnel. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</body>
+</html>
